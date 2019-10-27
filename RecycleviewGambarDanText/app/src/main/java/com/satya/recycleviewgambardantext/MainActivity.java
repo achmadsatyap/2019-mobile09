@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
         listSuperHero.add(new SuperHero(
                 "Petruk",
                 "Petruk adalah tokoh punakawan dalam pewayangan Jawa, di pihak keturunan/trah Witaradya. Petruk tidak disebutkan dalam kitab Mahabarata dari India. Keberadaan tokoh ini dalam dunia pewayangan merupakan gubahan asli masyarakat Jawa. Di ranah Pasundan (Jawa Barat), tokoh Petruk lebih dikenal dengan nama Dawala atau Udel.",
-                R.drawable.kopi));
+                R.drawable.petruk));
         listSuperHero.add(new SuperHero(
                 "Gareng",
                 "Gareng adalah punakawan yang berkaki pincang. Hal ini merupakan sebuah sanepa dari sifat Gareng sebagai kawula yang selalu hati-hati dalam bertindak. Selain itu, cacat fisik Gareng yang lain adalah tangan yang ciker atau patah.",
-                R.drawable.kucing));
+                R.drawable.gareng));
         SuperHeroAdapter superHeroAdapter = new SuperHeroAdapter(listSuperHero);
         rvSuperHero.setAdapter(superHeroAdapter);
         rvSuperHero.setLayoutManager(new LinearLayoutManager(this));
